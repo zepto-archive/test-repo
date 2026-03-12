@@ -1,0 +1,18 @@
+Note: Unnecessary use of -X or --request, POST is already inferred.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host viy7077zbe.execute-api.ap-south-1.amazonaws.com:443 was resolved.
+* IPv6: (none)
+* IPv4: 100.64.1.16
+*   Trying 100.64.1.16:443...
+* Connected to viy7077zbe.execute-api.ap-south-1.amazonaws.com (100.64.1.16) port 443
+* ALPN: curl offers h2,http/1.1
+* (304) (OUT), TLS handshake, Client hello (1):
+} [352 bytes data]
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0* Recv failure: Connection reset by peer
+* LibreSSL/3.3.6: error:02FFF036:system library:func(4095):Connection reset by peer
+  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0
+* Closing connection
+curl: (35) Recv failure: Connection reset by peer
